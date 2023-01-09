@@ -8,6 +8,7 @@ const main = async (): Promise<void> => {
   try {
     await prisma.categoria.createMany({
       data: categorias,
+      // skipDuplicates: true
     });
 
     await prisma.producto.createMany({

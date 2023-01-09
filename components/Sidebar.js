@@ -6,6 +6,7 @@ import Categoria from './Categoria'
 const Sidebar = () => {
   const {categorias} = useKiosko()
   // console.log(categorias)
+  // console.log(categorias)
   return (
     <>
     <Image width={300} height={100} src="/assets/img/logo.svg" alt='Imagen logotipo '/>
